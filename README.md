@@ -8,6 +8,8 @@ Email: colincammarano@gmail.com
 Overview:
 ---------------------------
 
+This is a networking assignment designed to run on UNIX and Linux systems.
+
 For this assignment, I created a networking simulation in C++ that models client-server TCP communication and client-client UDP communication using the UNIX socket and network libraries. This simulation uses sockets, threading, and file-IO to properly simulate the interactions between users (the patients) and a server that runs as its own process.
 
 Code:
@@ -42,9 +44,6 @@ Other Files:
 
 README.md:
 + This file. A readme written in the markdown file format.
-
-README.txt:
-+ A copy of the markdown readme for portability.
 
 Makefile:
 + A simple UNIX makefile that executes the necessary compilation commands on UNIX systems. Compliles each source with the command "g++ -lsocket -lnsl -o OUTPUT_NAME SOURCE.cpp"
