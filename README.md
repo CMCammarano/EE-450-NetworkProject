@@ -54,12 +54,10 @@ Building the Application:
 There are two ways of building the source code for this project:
 
 1: Using the makefile
-
-	+ To use the makefile, simply type the command "make all" without quotes in the terminal. This will compile the source into separate executables for each process on the nunki server.
+ + To use the makefile, simply type the command "make all" without quotes in the terminal. This will compile the source into separate executables for each process on the nunki server.
 
 2: g++
-
-	+ To compile with the g++ command (if the makefile does not work), simply type the command "g++ -lsocket -lnsl -o OUTPUT_NAME SOURCE.cpp" without quotes in the terminal, replacing SOURCE with the name of the source file (healthcenterserver, doctor, patient1, patient2), and OUTPUT_NAME with an appropriate filename for each executable.
+ + To compile with the g++ command (if the makefile does not work), simply type the command "g++ -lsocket -lnsl -o OUTPUT_NAME SOURCE.cpp" without quotes in the terminal, replacing SOURCE with the name of the source file (healthcenterserver, doctor, patient1, patient2), and OUTPUT_NAME with an appropriate filename for each executable.
 
 Running the Application:
 ---------------------------
